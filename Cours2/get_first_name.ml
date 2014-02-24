@@ -1,1 +1,1 @@
-get_first_name (prenom, nom, annee, close) = prenom;;
+let get_first_name (prenom, nom, annee, close) = prenom;;

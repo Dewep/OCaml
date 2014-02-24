@@ -1,1 +1,1 @@
-get_promotion (prenom, nom, annee, close) = annee;;
+let get_promotion (prenom, nom, annee, close) = annee;;

@@ -1,3 +1,10 @@
+let fibonacci n = let rec fibonacci_aux x y = function
+    | 0 -> 0
+    | 1 -> y
+    | z -> fibonacci_aux (y) (x + y) (z - 1)
+  in fibonacci_aux 0 1 n
+
+
 let fibonacci n = let rec fibonacci_aux x y z =
     if z <= 0 then 0
     else if z <= 1 then y

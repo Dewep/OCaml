@@ -8,6 +8,11 @@
 ## Last update Mon Mar 17 15:14:20 2014 Maigret Aurelien
 ##
 
+
+# Ou alors faire un "ocamlbuild compile_expr.native" pour compiler en natif compile_expr.ml
+# Et "ocamlbuild compile_expr.byte" pour le compiler en byte
+
+
 OCAMLC		= ocamlc
 
 OCAMLOPT	= ocamlopt
